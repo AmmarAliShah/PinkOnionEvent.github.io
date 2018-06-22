@@ -254,7 +254,7 @@ figure {
   border-top: none;
   text-decoration: none;
   zoom: 1;
-  font-size: 18px;
+  font-size: 15px;
   border-bottom: none !important;
 }
 .sf-menu a:hover, .sf-menu a:focus {
@@ -344,6 +344,8 @@ figure {
   width: 100%;
   z-index: 2;
   padding-top: 40px;
+  background: rgba(0, 0, 0, 0.05);
+
 }
 
 .nav-header {
@@ -479,7 +481,7 @@ figure {
 #fh5co-primary-menu .fh5co-sub-menu a {
   letter-spacing: 0;
   padding: 0 15px;
-  font-size: 18px;
+  font-size: 10px;
   line-height: 34px;
   color: #575757 !important;
   text-transform: none;
@@ -523,7 +525,7 @@ h3.heading-section:before {
 
 .fh5co-grid {
   height: 302px;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   margin-bottom: 30px;
   position: relative;
@@ -1237,4 +1239,65 @@ h3.heading-section:before {
 
 .logo-img {
   width: 150px;
+}
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
 }
