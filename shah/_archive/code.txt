@@ -1,0 +1,37 @@
+<!--<div class="demo-3 loading">
+  <div class="row">
+    <div class="grid">
+      <div class="grid__item">
+        <a href="fashion.html"><div class="glitch glitch--style-1">
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+        </div></a>
+        <h2 style="left: 6em;" class="grid__item-title">fashion</h2>
+      </div>
+
+      <div class="grid__item">
+        <a href="wed.html"><div class="glitch glitch--style-2">
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+        </div></a>
+        <h2 style="right: 6em; padding-top: 3em;" class="grid__item-title">Wedding</h2>
+      </div>
+      <div class="grid__item">
+        <div class="glitch glitch--vertical glitch--style-3">
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+        </div>
+        <h2 style="left: 6em;" class="grid__item-title">Birthday</h2>
+      </div>
+    </div>
+  </div>
+</div>-->
