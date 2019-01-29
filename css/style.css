@@ -526,7 +526,7 @@ h3.heading-section:before {
 }
 @media screen and (max-width: 480px) {
   .fh5co-grid {
-    height: 400px;
+    height: 100px;
   }
 }
 .fh5co-grid .image-popup {
