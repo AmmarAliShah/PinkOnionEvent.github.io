@@ -6,8 +6,22 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Kameron:700');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+/* GLOBAL PAGE FONTS  */
+
+html,
+body,
+p {
+  font-family: 'EB Garamond', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kameron', serif;
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   background: #fff;
   color: #848484;
@@ -894,7 +908,7 @@ h3.heading-section:before {
 
 #footer {
   background: #222831;
-  padding: 60px 0 40px;
+  padding: 10px;
 }
 #footer p {
   color: rgba(255, 255, 255, 0.3);
