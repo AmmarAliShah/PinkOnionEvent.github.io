@@ -1267,3 +1267,22 @@ h3.heading-section:before {
 #recentEvents-Home {
   padding: 0 50px;
 }
+
+#grid {
+  min-height: 400px;
+  background-size: cover;
+}
+
+#grid figcaption {
+  padding-top: 10em;
+}
+
+#storeLogo {
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+#storeHead {
+  padding-top: 150px;
+}
