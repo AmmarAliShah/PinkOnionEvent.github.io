@@ -1253,6 +1253,10 @@ h3.heading-section:before {
   .top {
     display: none;
   }
+  #grid {
+    min-height: 100px;
+    width: 100%;
+  }
 }
 
 #fh5co-grid {
