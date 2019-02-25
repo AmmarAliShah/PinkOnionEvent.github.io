@@ -5,20 +5,18 @@
   font-weight: normal;
   font-style: normal;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Kameron:700');
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /* GLOBAL PAGE FONTS  */
 
 html,
 body,
 p {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Kameron', serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
@@ -49,12 +47,12 @@ p {
   font-size: 20px;
   color: #848484;
   font-weight: 300;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #5a5a5a;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -103,7 +101,7 @@ figure {
   line-height: 0;
   position: relative;
   top: 1px;
-  padding-right: 7px;
+  padding-right: 1px;
   font-style: normal;
   display: -moz-inline-stack;
   display: inline-block;
@@ -238,13 +236,16 @@ figure {
   color: #fff;
 }
 
-/* Superfish Override Menu */
 .sf-menu {
-  margin: 0 !important;
+  margin: 0 auto !important;
+  padding-left: 16em;
 }
 
-.sf-menu {
-  float: right;
+@media screen and (max-width: 1024px) {
+  .sf-menu {
+    margin: 0 auto !important;
+    padding-left: 1.5em;
+  }
 }
 
 .sf-menu ul {
@@ -266,6 +267,8 @@ figure {
   zoom: 1;
   font-size: 15px;
   border-bottom: none !important;
+  text-align:center;
+  display: block;
 }
 .sf-menu a:hover, .sf-menu a:focus {
   color: #fff !important;
@@ -360,7 +363,6 @@ figure {
 
 .nav-header {
   position: relative;
-  float: left;
   width: 100%;
 }
 
@@ -373,6 +375,8 @@ figure {
   margin-top: 0;
   font-weight: bold;
   float: left;
+  bottom: 35px;
+  right: 35px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-logo {
@@ -392,7 +396,6 @@ figure {
   position: relative;
   z-index: 2;
   display: block;
-  float: right;
 }
 #fh5co-menu-wrap .sf-menu a {
   padding: 2em .75em;
@@ -517,7 +520,7 @@ figure {
 }
 
 h3.heading-section {
-  font-size: 70px;
+  font-size: 50px;
   letter-spacing: 2px;
   text-transform: uppercase;
   position: relative;
@@ -1246,7 +1249,7 @@ h3.heading-section:before {
 /*# sourceMappingURL=style.css.map */
 
 .logo-img {
-  width: 130px;
+  width: 180px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -1289,4 +1292,12 @@ h3.heading-section:before {
 
 #storeHead {
   padding-top: 150px;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo-container {
+  text-align: center;
 }
