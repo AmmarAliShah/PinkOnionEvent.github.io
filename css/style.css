@@ -1255,15 +1255,7 @@ h3.heading-section:before {
   width: 180px;
 }
 
-@media only screen and (max-width: 500px) {
-  .top {
-    display: none;
-  }
-  #grid {
-    min-height: 100px;
-    width: 100%;
-  }
-}
+
 
 #fh5co-grid {
   padding-bottom: 1em;
@@ -1332,4 +1324,24 @@ h3.heading-section:before {
   right: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .top {
+    display: none;
+  }
+  #grid {
+    min-height: 100px;
+    width: 100%;
+  }
+  .content canvas {
+    width: 500px;
+    height: 300px;
+    padding-top: 0px;
+    margin-left: -50px;
+    margin-right: 0px;
+  }
+  .sf-menu > li {
+    float: none;
+  }
 }

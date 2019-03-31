@@ -7,12 +7,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
-	background-color: #fff;
-	background-color: var(--color-bg);
+	background-color: #330000;
+	background-color: #330000;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
