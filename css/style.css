@@ -538,7 +538,7 @@ h3.heading-section:before {
 
 .fh5co-grid {
   height: 200px;
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
   position: relative;
 }
