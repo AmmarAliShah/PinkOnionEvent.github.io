@@ -1344,4 +1344,7 @@ h3.heading-section:before {
   .sf-menu > li {
     float: none;
   }
+  .fh5co-about-us img {
+    width: 100%;
+  }
 }
